@@ -15,4 +15,8 @@ before_action :require_user
         def message_params
             params.require(:message).permit(:body)
         end
+
+        def test_params
+
+        end
 end
